@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f7f8;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* container spacing */
+.container {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* headings */
+h1, h2 {
+  color: #2b2b2b;
+  margin-bottom: 0.6rem;
+}
+
+/* simple card look for images */
+.art-card {
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+}
+
+/* images */
+.art-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  border: 2px solid #e9e9ea;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+/* hover effect */
+.art-card img:hover {
+  transform: scale(1.03);
+  border-color: #bdb8ff;
+}
+
+/* buttons - subtle custom color */
+.btn-purple {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+}
+.btn-purple:hover {
+  background: #574bda;
+  color: #fff;
+}
+
+/* back buttons */
+.back-btn {
+  margin-top: 18px;
+}
+
+/* small footnote style */
+.footer-note {
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+}
+
+/* tiny responsiveness tweak for big images */
+@media (max-width: 600px) {
+  .art-card img { height: auto; }
+}
