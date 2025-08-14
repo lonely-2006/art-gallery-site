@@ -42,6 +42,23 @@ h1, h2 {
   border-color: #bdb8ff;
 }
 
+/* limit big images on single pages */
+.artwork-img {
+  max-width: 400px;   /* stops huge images */
+  height: auto;
+  margin: 0 auto;     /* centers it */
+  display: block;
+}
+
+/* uniform gallery image size */
+.gallery-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;  /* crops neatly */
+  border-radius: 6px;
+  border: 2px solid #e9e9ea;
+}
+
 /* buttons - subtle custom color */
 .btn-purple {
   background: #6c63ff;
@@ -69,4 +86,5 @@ h1, h2 {
 /* tiny responsiveness tweak for big images */
 @media (max-width: 600px) {
   .art-card img { height: auto; }
+  .gallery-img { width: 100%; height: auto; }
 }
