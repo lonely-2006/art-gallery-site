@@ -52,9 +52,10 @@ h1, h2 {
 
 /* uniform gallery image size */
 .gallery-img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;  /* crops neatly */
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust height limit */
+  object-fit: contain; /* Keeps aspect ratio, no stretching */
   border-radius: 6px;
   border: 2px solid #e9e9ea;
 }
