@@ -3,40 +3,25 @@
 <head>
     <title>Mona Lisa</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .art-image {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
-        }
-    </style>
 </head>
 <body>
-    <div class="container mt-5">
-        <!-- Card container like Swing -->
-        <div class="card shadow-lg border-0">
-            <div class="row g-0">
-                <!-- Image section -->
-                <div class="col-md-6">
-                    <img src="art3.jpg" class="art-image" alt="Mona Lisa">
-                </div>
-                <!-- Text section -->
-                <div class="col-md-6 p-4">
-                    <h2 class="card-title">Mona Lisa</h2>
-                    <p><b>Artist:</b> Leonardo da Vinci</p>
-                    <p><b>Year:</b> 1503</p>
-                    <p class="card-text">The Mona Lisa is one of the most famous portraits in the world, known for its mysterious smile and realistic background.</p>
-                    <h5>Similar Artworks:</h5>
-                    <ul>
-                        <li>The Last Supper</li>
-                        <li>Lady with an Ermine</li>
-                        <li>Vitruvian Man</li>
-                    </ul>
-                    <a href="art-display.html" class="btn btn-secondary mt-3">Back to Gallery</a>
-                </div>
+    <div class="container">
+        <div class="art-container">
+            <div class="art-image">
+                <img src="art3.jpg" alt="Mona Lisa">
+            </div>
+            <div class="art-details">
+                <h2>Mona Lisa</h2>
+                <p><b>Artist:</b> Leonardo da Vinci</p>
+                <p><b>Year:</b> 1503</p>
+                <p>The Mona Lisa is one of the most famous portraits in the world, known for its mysterious smile and realistic background.</p>
+                <h3>Similar Artworks:</h3>
+                <ul>
+                    <li>The Last Supper</li>
+                    <li>Lady with an Ermine</li>
+                    <li>Vitruvian Man</li>
+                </ul>
+                <a href="art-display.html" class="btn">Back to Gallery</a>
             </div>
         </div>
     </div>
