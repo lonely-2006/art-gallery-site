@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mona Lisa</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Girl with a Pearl Earring</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .art-container{background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.1);}
+    .art-image{width:400px;height:500px;object-fit:cover;border-radius:10px;display:block;margin:auto;}
+  </style>
 </head>
 <body>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="art2.jpg" class="img-fluid rounded" alt="Mona Lisa">
-            </div>
-            <div class="col-md-6">
-                <h2>Girl with a Pearl Earring</h2>
-                <p><b>Artist:</b> Johannes Vermeer</p>
-                <p><b>Year:</b> 1503</p>
-                <p>This painting is often referred to as the 'Mona Lisa of the North', 
-                    showing a girl with a captivating gaze and a striking pearl earring.</p>
-                <h5>Similar Artworks:</h5>
-                <ul>                  
-            <li>The Milkmaid</li>
-            <li>View of Delft</li>
-            <li>Woman Holding a Balance</li>
-        </ul>
-                <a href="art-display.html" class="btn btn-secondary">Back to Gallery</a>
-            </div>
+  <div class="container mt-5">
+    <div class="art-container">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <!-- Change filename if yours is different -->
+          <img src="art2.jpg" class="art-image" alt="Girl with a Pearl Earring">
         </div>
+        <div class="col-md-6">
+          <h2>Girl with a Pearl Earring</h2>
+          <p><b>Artist:</b> Johannes Vermeer</p>
+          <p><b>Year:</b> 1665</p>
+          <p>Known as the “Mona Lisa of the North”, featuring a luminous pearl and captivating gaze.</p>
+          <h5>Similar Artworks:</h5>
+          <ul>
+            <li>The Milkmaid</li>
+            <li>Woman Holding a Balance</li>
+            <li>View of Delft</li>
+          </ul>
+          <a href="art-display.html" class="btn btn-secondary">Back to Gallery</a>
+        </div>
+      </div>
     </div>
+  </div>
 </body>
 </html>
