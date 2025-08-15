@@ -89,3 +89,9 @@ h1, h2 {
   .art-card img { height: auto; }
   .gallery-img { width: 100%; height: auto; }
 }
+.art-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
